@@ -2,6 +2,7 @@ package com.wdmx.org.tests;
 
 import com.wdmx.org.Caculator;
 import org.junit.Assert;
+import org.junit.Before;
 import org.junit.Test;
 
 /**
@@ -9,9 +10,19 @@ import org.junit.Test;
  */
 public class CaculatorTest {
 
+    Caculator calc;
+    @Before
+    public void init() {
+        calc = new Caculator();
+    }
+
     @Test
     public void add1and1() {
-        Caculator calc = new Caculator();
         Assert.assertEquals(calc.add(1, 1), 2);
+    }
+
+    @Test
+    public void multiple2and2() {
+        Assert.assertEquals(calc.multiple(2, 2), 4);
     }
 }
