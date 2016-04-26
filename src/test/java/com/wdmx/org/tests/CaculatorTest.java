@@ -1,3 +1,5 @@
+package com.wdmx.org.tests;
+
 import com.wdmx.org.Caculator;
 import org.junit.Assert;
 import org.junit.Test;
