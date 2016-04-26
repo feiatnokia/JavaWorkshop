@@ -1,6 +1,6 @@
 package com.wdmx.org.tests;
 
-import com.wdmx.org.Caculator;
+import com.wdmx.org.Calculator;
 import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
@@ -10,12 +10,12 @@ import org.junit.Test;
  * Date: 2016/4/26.
  */
 
-public class CaculatorTest {
+public class CalculatorTest {
 
-    Caculator calc;
+    Calculator calc;
     @Before
     public void init() {
-        calc = new Caculator();
+        calc = new Calculator();
     }
 
     @Test
