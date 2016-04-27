@@ -27,4 +27,9 @@ public class CalculatorTest {
     public void multiple2and2() {
         Assert.assertEquals(calc.multiple(2, 2), 4);
     }
+
+    @Test
+    public void subtract3to1() {
+        Assert.assertEquals(calc.subtract(3, 1), 2);
+    }
 }
