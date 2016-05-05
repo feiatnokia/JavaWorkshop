@@ -24,12 +24,12 @@ public class CalculatorTest {
     }
 
     @Test
-    public void multiple2and2() {
-        Assert.assertEquals(calc.multiple(2, 2), 4);
+    public void multiply2by2() {
+        Assert.assertEquals(calc.multiply(2, 2), 4);
     }
 
     @Test
-    public void subtract3to1() {
+    public void subtract1from3() {
         Assert.assertEquals(calc.subtract(3, 1), 2);
     }
 }
