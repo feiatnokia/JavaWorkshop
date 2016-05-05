@@ -12,7 +12,8 @@ import org.junit.Test;
 
 public class CalculatorTest {
 
-    Calculator calc;
+    private Calculator calc;
+
     @Before
     public void init() {
         calc = new Calculator();
